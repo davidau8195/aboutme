@@ -88,9 +88,9 @@ hr {
 /* Header Format */
 .row-header {
   padding: 5vh 10vw 0 10vw;
-  background-image: url("https://davidau8195.github.io/aboutme/icons/background.jpg");
+  background-image: url("https://davidau8195.github.io/aboutme/icons/backgroundUCB.png");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   display: flex;
   position: relative;
@@ -127,11 +127,9 @@ section {
 }
 
 /* If you want to include a pic... */
-/*.profile-pic {
-  border-radius:50%;
-  width:40%;
-  max-width: 200px;
-}*/
+.profile-pic {
+  max-width: 90px;
+}
 
 /* Main content */
 .main {
